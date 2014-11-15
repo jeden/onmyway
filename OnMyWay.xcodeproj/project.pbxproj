@@ -12,18 +12,7 @@
 		5713A2C01A175D8900614341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5713A2BE1A175D8900614341 /* Main.storyboard */; };
 		5713A2C21A175D8900614341 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5713A2C11A175D8900614341 /* Images.xcassets */; };
 		5713A2C51A175D8900614341 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5713A2C31A175D8900614341 /* LaunchScreen.xib */; };
-		5713A2D11A175D8900614341 /* OnMyWayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5713A2D01A175D8900614341 /* OnMyWayTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5713A2CB1A175D8900614341 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5713A2AD1A175D8900614341 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5713A2B41A175D8900614341;
-			remoteInfo = OnMyWay;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5713A2B51A175D8900614341 /* OnMyWay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnMyWay.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +22,10 @@
 		5713A2BF1A175D8900614341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5713A2C11A175D8900614341 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5713A2C41A175D8900614341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		5713A2CA1A175D8900614341 /* OnMyWayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnMyWayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5713A2CF1A175D8900614341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5713A2D01A175D8900614341 /* OnMyWayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnMyWayTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5713A2B21A175D8900614341 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5713A2C71A175D8900614341 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				5713A2B71A175D8900614341 /* OnMyWay */,
-				5713A2CD1A175D8900614341 /* OnMyWayTests */,
 				5713A2B61A175D8900614341 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				5713A2B51A175D8900614341 /* OnMyWay.app */,
-				5713A2CA1A175D8900614341 /* OnMyWayTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,23 +72,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5713A2CD1A175D8900614341 /* OnMyWayTests */ = {
-			isa = PBXGroup;
-			children = (
-				5713A2D01A175D8900614341 /* OnMyWayTests.swift */,
-				5713A2CE1A175D8900614341 /* Supporting Files */,
-			);
-			path = OnMyWayTests;
-			sourceTree = "<group>";
-		};
-		5713A2CE1A175D8900614341 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5713A2CF1A175D8900614341 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,24 +92,6 @@
 			productReference = 5713A2B51A175D8900614341 /* OnMyWay.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5713A2C91A175D8900614341 /* OnMyWayTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5713A2D71A175D8900614341 /* Build configuration list for PBXNativeTarget "OnMyWayTests" */;
-			buildPhases = (
-				5713A2C61A175D8900614341 /* Sources */,
-				5713A2C71A175D8900614341 /* Frameworks */,
-				5713A2C81A175D8900614341 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5713A2CC1A175D8900614341 /* PBXTargetDependency */,
-			);
-			name = OnMyWayTests;
-			productName = OnMyWayTests;
-			productReference = 5713A2CA1A175D8900614341 /* OnMyWayTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +103,7 @@
 				TargetAttributes = {
 					5713A2B41A175D8900614341 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					5713A2C91A175D8900614341 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 5713A2B41A175D8900614341;
+						DevelopmentTeam = 729TM95RX6;
 					};
 				};
 			};
@@ -182,7 +121,6 @@
 			projectRoot = "";
 			targets = (
 				5713A2B41A175D8900614341 /* OnMyWay */,
-				5713A2C91A175D8900614341 /* OnMyWayTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +136,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5713A2C81A175D8900614341 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,23 +148,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5713A2C61A175D8900614341 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5713A2D11A175D8900614341 /* OnMyWayTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5713A2CC1A175D8900614341 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5713A2B41A175D8900614341 /* OnMyWay */;
-			targetProxy = 5713A2CB1A175D8900614341 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5713A2BE1A175D8900614341 /* Main.storyboard */ = {
@@ -336,6 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OnMyWay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,43 +262,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = OnMyWay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		5713A2D81A175D8900614341 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = OnMyWayTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnMyWay.app/OnMyWay";
-			};
-			name = Debug;
-		};
-		5713A2D91A175D8900614341 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = OnMyWayTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnMyWay.app/OnMyWay";
 			};
 			name = Release;
 		};
@@ -403,14 +286,6 @@
 			buildConfigurations = (
 				5713A2D51A175D8900614341 /* Debug */,
 				5713A2D61A175D8900614341 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		5713A2D71A175D8900614341 /* Build configuration list for PBXNativeTarget "OnMyWayTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5713A2D81A175D8900614341 /* Debug */,
-				5713A2D91A175D8900614341 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
